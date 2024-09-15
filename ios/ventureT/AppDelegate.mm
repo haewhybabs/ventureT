@@ -30,9 +30,12 @@
 #endif
 }
 
-// ⬇️ Add this before file @end (for react-native 0.74+)
-- (void)customizeRootView:(RCTRootView *)rootView {
+- (UIView *)createRootViewWithBridge:(RCTBridge *)bridge
+                          moduleName:(NSString *)moduleName
+                           initProps:(NSDictionary *)initProps {
+  UIView *rootView = [super createRootViewWithBridge:bridge moduleName:moduleName initProps:initProps];
   [RNBootSplash initWithStoryboard:@"BootSplash" rootView:rootView]; // ⬅️ initialize the splash screen
+  return rootView;
 }
 
 

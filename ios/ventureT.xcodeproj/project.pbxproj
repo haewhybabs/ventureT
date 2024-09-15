@@ -12,11 +12,20 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		4400610665EE4FF280DF68E7 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365193D3B7FB466297BBBE6C /* Colors.xcassets */; };
 		7699B88040F8A987B510C191 /* libPods-ventureT-ventureTTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ventureT-ventureTTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9C2F9DB82124B32CAE35824F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 1D2540329C5A05A6BC2B0880 /* PrivacyInfo.xcprivacy */; };
 		D2C0247D6480442091D49AE1 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDCECD7184A64FD380627600 /* BootSplash.storyboard */; };
-		4400610665EE4FF280DF68E7 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 365193D3B7FB466297BBBE6C /* Colors.xcassets */; };
+		02044B142F4949F38DD1A1E5 /* SFPRODISPLAYBLACKITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 4F6F3F11471345D48FBC6B6E /* SFPRODISPLAYBLACKITALIC.OTF */; };
+		51303EA19A19463ABE57099F /* SFPRODISPLAYBOLD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 3A7A45C30F2B46B692B19DE5 /* SFPRODISPLAYBOLD.OTF */; };
+		E12F051E5E75470EADD24B66 /* SFPRODISPLAYHEAVYITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = D77E6C2C45624338A5C1B2E7 /* SFPRODISPLAYHEAVYITALIC.OTF */; };
+		70F04B8ADAD649D188E8F89B /* SFPRODISPLAYLIGHTITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = E2E655BCDAB24E448602AC1A /* SFPRODISPLAYLIGHTITALIC.OTF */; };
+		64B2B6B454B04BAC94230D21 /* SFPRODISPLAYMEDIUM.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 70C02AFEC7E44DBBA8BEB20E /* SFPRODISPLAYMEDIUM.OTF */; };
+		C781A532E0054471AA2D85E9 /* SFPRODISPLAYREGULAR.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 39EBA67698D14ED28C4ACCB5 /* SFPRODISPLAYREGULAR.OTF */; };
+		6B05639EB2E641BCBBF93CA0 /* SFPRODISPLAYSEMIBOLDITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 3B428DBB8B414D3F8984973F /* SFPRODISPLAYSEMIBOLDITALIC.OTF */; };
+		88A615BAF1AC437A9D7EDED5 /* SFPRODISPLAYTHINITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 0B04E936BD7D4CA19AF9B0AE /* SFPRODISPLAYTHINITALIC.OTF */; };
+		B81C435647DC46A29B64063C /* SFPRODISPLAYULTRALIGHTITALIC.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 16BDB7671A1E471FA681F1AC /* SFPRODISPLAYULTRALIGHTITALIC.OTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,15 +51,24 @@
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = ventureT/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-ventureT-ventureTTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ventureT-ventureTTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D2540329C5A05A6BC2B0880 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = ventureT/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		365193D3B7FB466297BBBE6C /* Colors.xcassets */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = ventureT/Colors.xcassets; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-ventureT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ventureT.debug.xcconfig"; path = "Target Support Files/Pods-ventureT/Pods-ventureT.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-ventureT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ventureT.release.xcconfig"; path = "Target Support Files/Pods-ventureT/Pods-ventureT.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-ventureT-ventureTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ventureT-ventureTTests.debug.xcconfig"; path = "Target Support Files/Pods-ventureT-ventureTTests/Pods-ventureT-ventureTTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-ventureT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ventureT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ventureT/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-ventureT-ventureTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ventureT-ventureTTests.release.xcconfig"; path = "Target Support Files/Pods-ventureT-ventureTTests/Pods-ventureT-ventureTTests.release.xcconfig"; sourceTree = "<group>"; };
+		BDCECD7184A64FD380627600 /* BootSplash.storyboard */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = BootSplash.storyboard; path = ventureT/BootSplash.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		BDCECD7184A64FD380627600 /* BootSplash.storyboard */ = {isa = PBXFileReference; name = "BootSplash.storyboard"; path = "ventureT/BootSplash.storyboard"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		365193D3B7FB466297BBBE6C /* Colors.xcassets */ = {isa = PBXFileReference; name = "Colors.xcassets"; path = "ventureT/Colors.xcassets"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = folder.assetcatalog; explicitFileType = undefined; includeInIndex = 0; };
+		4F6F3F11471345D48FBC6B6E /* SFPRODISPLAYBLACKITALIC.OTF */ = {isa = PBXFileReference; name = "SFPRODISPLAYBLACKITALIC.OTF"; path = "../src/assets/fonts/SFPRODISPLAYBLACKITALIC.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3A7A45C30F2B46B692B19DE5 /* SFPRODISPLAYBOLD.OTF */ = {isa = PBXFileReference; name = "SFPRODISPLAYBOLD.OTF"; path = "../src/assets/fonts/SFPRODISPLAYBOLD.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D77E6C2C45624338A5C1B2E7 /* SFPRODISPLAYHEAVYITALIC.OTF */ = {isa = PBXFileReference; name = "SFPRODISPLAYHEAVYITALIC.OTF"; path = "../src/assets/fonts/SFPRODISPLAYHEAVYITALIC.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E2E655BCDAB24E448602AC1A /* SFPRODISPLAYLIGHTITALIC.OTF */ = {isa = PBXFileReference; name = "SFPRODISPLAYLIGHTITALIC.OTF"; path = "../src/assets/fonts/SFPRODISPLAYLIGHTITALIC.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		70C02AFEC7E44DBBA8BEB20E /* SFPRODISPLAYMEDIUM.OTF */ = {isa = PBXFileReference; name = "SFPRODISPLAYMEDIUM.OTF"; path = "../src/assets/fonts/SFPRODISPLAYMEDIUM.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		39EBA67698D14ED28C4ACCB5 /* SFPRODISPLAYREGULAR.OTF */ = {isa = PBXFileReference; name = "SFPRODISPLAYREGULAR.OTF"; path = "../src/assets/fonts/SFPRODISPLAYREGULAR.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3B428DBB8B414D3F8984973F /* SFPRODISPLAYSEMIBOLDITALIC.OTF */ = {isa = PBXFileReference; name = "SFPRODISPLAYSEMIBOLDITALIC.OTF"; path = "../src/assets/fonts/SFPRODISPLAYSEMIBOLDITALIC.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0B04E936BD7D4CA19AF9B0AE /* SFPRODISPLAYTHINITALIC.OTF */ = {isa = PBXFileReference; name = "SFPRODISPLAYTHINITALIC.OTF"; path = "../src/assets/fonts/SFPRODISPLAYTHINITALIC.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		16BDB7671A1E471FA681F1AC /* SFPRODISPLAYULTRALIGHTITALIC.OTF */ = {isa = PBXFileReference; name = "SFPRODISPLAYULTRALIGHTITALIC.OTF"; path = "../src/assets/fonts/SFPRODISPLAYULTRALIGHTITALIC.OTF"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +151,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				D7683B3C531C44E28056EEFC /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -158,6 +177,23 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		D7683B3C531C44E28056EEFC /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				4F6F3F11471345D48FBC6B6E /* SFPRODISPLAYBLACKITALIC.OTF */,
+				3A7A45C30F2B46B692B19DE5 /* SFPRODISPLAYBOLD.OTF */,
+				D77E6C2C45624338A5C1B2E7 /* SFPRODISPLAYHEAVYITALIC.OTF */,
+				E2E655BCDAB24E448602AC1A /* SFPRODISPLAYLIGHTITALIC.OTF */,
+				70C02AFEC7E44DBBA8BEB20E /* SFPRODISPLAYMEDIUM.OTF */,
+				39EBA67698D14ED28C4ACCB5 /* SFPRODISPLAYREGULAR.OTF */,
+				3B428DBB8B414D3F8984973F /* SFPRODISPLAYSEMIBOLDITALIC.OTF */,
+				0B04E936BD7D4CA19AF9B0AE /* SFPRODISPLAYTHINITALIC.OTF */,
+				16BDB7671A1E471FA681F1AC /* SFPRODISPLAYULTRALIGHTITALIC.OTF */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -257,6 +293,15 @@
 				9C2F9DB82124B32CAE35824F /* PrivacyInfo.xcprivacy in Resources */,
 				D2C0247D6480442091D49AE1 /* BootSplash.storyboard in Resources */,
 				4400610665EE4FF280DF68E7 /* Colors.xcassets in Resources */,
+				02044B142F4949F38DD1A1E5 /* SFPRODISPLAYBLACKITALIC.OTF in Resources */,
+				51303EA19A19463ABE57099F /* SFPRODISPLAYBOLD.OTF in Resources */,
+				E12F051E5E75470EADD24B66 /* SFPRODISPLAYHEAVYITALIC.OTF in Resources */,
+				70F04B8ADAD649D188E8F89B /* SFPRODISPLAYLIGHTITALIC.OTF in Resources */,
+				64B2B6B454B04BAC94230D21 /* SFPRODISPLAYMEDIUM.OTF in Resources */,
+				C781A532E0054471AA2D85E9 /* SFPRODISPLAYREGULAR.OTF in Resources */,
+				6B05639EB2E641BCBBF93CA0 /* SFPRODISPLAYSEMIBOLDITALIC.OTF in Resources */,
+				88A615BAF1AC437A9D7EDED5 /* SFPRODISPLAYTHINITALIC.OTF in Resources */,
+				B81C435647DC46A29B64063C /* SFPRODISPLAYULTRALIGHTITALIC.OTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,7 +607,7 @@
 				CXX = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -592,6 +637,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",
@@ -646,7 +692,7 @@
 				CXX = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -668,6 +714,7 @@
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CFLAGS = "$(inherited)";
 				OTHER_CPLUSPLUSFLAGS = (
 					"$(OTHER_CFLAGS)",
 					"-DFOLLY_NO_CONFIG",

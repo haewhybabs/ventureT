@@ -5,17 +5,13 @@ import BootSplash from "react-native-bootsplash";
 export default function SplashScreen({ navigation, route }: any) {
     useEffect(() => {
         const init = async () => {
-            // …do multiple sync or async tasks
+
         };
 
         init().finally(async () => {
             await BootSplash.hide({ fade: true });
-            console.log("BootSplash has been hidden successfully");
+            navigation.navigate("AppStack")
         });
     }, []);
-    return (
-        <View>
-            <Text>Splash</Text>
-        </View>
-    )
+    return <></> // handles logic expected on the splash as the splash load is handled by the native bootsplash
 }
