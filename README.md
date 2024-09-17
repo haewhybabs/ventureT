@@ -14,6 +14,12 @@ This project is a React Native app developed as a test task for EK Ventures, fea
 ## Requirements
 Make sure you have completed the React Native - Environment Setup instructions before proceeding.
 
+Then proceed to clone the app
+
+```bash
+# git clone https://github.com/haewhybabs/ventureT.git
+```
+
 ## Step 1: install dependency
 
 ```bash
