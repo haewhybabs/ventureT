@@ -39,7 +39,7 @@ npm run ios
  npm run android
 ```
 
-## Step 4: Running Tests
+## Running Tests
 
 The app includes unit tests for key components using Jest. To run the tests, use the following command:
 
