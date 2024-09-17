@@ -1,7 +1,8 @@
-import { View, Text, TouchableOpacity, ViewStyle, StyleSheet, StyleProp, TextStyle } from 'react-native'
+import { View, Text, TouchableOpacity, ViewStyle, StyleSheet, StyleProp, TextStyle, ActivityIndicator } from 'react-native'
 import React, { ReactNode } from 'react'
 import { themeColors } from '../themes/colors';
 import AppText from '../text/AppText';
+import { Image } from 'react-native-svg';
 
 interface RenderIconsItem {
     onPress: () => void;
@@ -20,6 +21,11 @@ interface HeaderIconTextProps {
     headerText: string,
     headerStyle?: StyleProp<ViewStyle | TextStyle>;
     wrapperStyle?: StyleProp<ViewStyle>;
+}
+
+
+interface ThumbnailItemProps {
+    videoUrl: string;
 }
 
 export const renderIcons = (item: RenderIconsItem, index: number) => {
@@ -57,6 +63,10 @@ export const HeaderIconText = ({ icon, headerText, headerStyle, wrapperStyle }: 
 }
 
 
+
+
+
+
 const styles = StyleSheet.create({
     iconContainer: {
         marginHorizontal: 10,
@@ -70,12 +80,12 @@ const styles = StyleSheet.create({
     },
     shadowContainer: {
         shadowColor: themeColors.black,
-        shadowOffset: { width: 0, height: 4 }, // Increase height for more vertical shadow
-        shadowOpacity: 0.4, // Increase opacity for a darker shadow
-        shadowRadius: 10,   // Increase radius for a more spread-out shadow
+        shadowOffset: { width: 0, height: 4 },
+        shadowOpacity: 0.4,
+        shadowRadius: 10,
         borderRadius: 5,
         backgroundColor: themeColors.secondary,
-        elevation: 5,       // Increase elevation for a stronger shadow on Android
+        elevation: 5,
     },
     row: {
         flexDirection: 'row'
@@ -83,4 +93,15 @@ const styles = StyleSheet.create({
     marginAlign: {
         marginTop: 10
     },
+
+    imageContainer: {
+        marginRight: 10,
+        marginTop: 20,
+    },
+    image: {
+        height: 200,
+        width: 150,
+        borderRadius: 10,
+    },
 })
+
