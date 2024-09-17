@@ -30,7 +30,7 @@ interface ThumbnailItemProps {
 
 export const renderIcons = (item: RenderIconsItem, index: number) => {
     return (
-        <TouchableOpacity style={[styles.iconContainer, item.styles]} onPress={item.onPress} key={index}>
+        <TouchableOpacity testID='renderIcons' style={[styles.iconContainer, item.styles]} onPress={item.onPress} key={index}>
             {item.icon}
         </TouchableOpacity>
     )
@@ -41,6 +41,7 @@ export const renderIcons = (item: RenderIconsItem, index: number) => {
 export const Divider = ({ style = {} }: DividerProps) => {
     return (
         <View
+            testID='divider'
             style={[
                 styles.divider,
                 style
