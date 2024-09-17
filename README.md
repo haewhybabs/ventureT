@@ -27,8 +27,10 @@ pod install
 ```
 ## Step 3: Start Application
 ```bash
-# ios : npm run ios
-# android : npm run android
+# ios 
+npm run ios
+# android
+ npm run android
 ```
 
 ## Step 4: Running Tests
